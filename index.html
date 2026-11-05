@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nova — Build Beyond Limits</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#" class="logo">
+      <i class="fa-solid fa-cube"></i>
+      <span>Nova<span class="dot">.</span></span>
+    </a>
+
+    <nav class="nav-menu" id="navMenu">
+      <ul>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#" class="btn btn-ghost">Sign In</a>
+        <a href="#" class="btn btn-primary">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <!-- animated background orbs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="grid-overlay"></div>
+
+  <div class="hero-container">
+    <div class="hero-content">
+      <div class="badge">
+        <i class="fa-solid fa-bolt"></i>
+        <span>Now in public beta</span>
+      </div>
+
+      <h1 class="hero-title">
+        Build <span class="gradient-text">beyond</span><br />
+        the ordinary.
+      </h1>
+
+      <p class="hero-subtitle">
+        Launch stunning products faster with a toolkit designed for modern
+        creators. Ship, scale, and shine — all from one place.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#" class="btn btn-primary btn-lg">
+          Start Free Trial <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <a href="#" class="btn btn-outline btn-lg">
+          <i class="fa-solid fa-play"></i> Watch Demo
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <h3>12K+</h3>
+          <p>Developers</p>
+        </div>
+        <div class="stat">
+          <h3>4.9<i class="fa-solid fa-star"></i></h3>
+          <p>Rated</p>
+        </div>
+        <div class="stat">
+          <h3>99.9%</h3>
+          <p>Uptime</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="floating-card card-main">
+        <div class="card-header">
+          <i class="fa-solid fa-code"></i>
+          <span>dashboard.tsx</span>
+        </div>
+        <div class="code-line"><span class="kw">const</span> app = <span class="fn">createApp</span>();</div>
+        <div class="code-line"><span class="kw">await</span> app.<span class="fn">launch</span>();</div>
+        <div class="code-line"><span class="kw">return</span> <span class="str">"🚀"</span>;</div>
+      </div>
+
+      <div class="floating-card card-mini card-1">
+        <i class="fa-solid fa-rocket"></i>
+        <div>
+          <h4>+248%</h4>
+          <p>Growth</p>
+        </div>
+      </div>
+
+      <div class="floating-card card-mini card-2">
+        <i class="fa-solid fa-shield-halved"></i>
+        <div>
+          <h4>Secured</h4>
+          <p>End-to-end</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#features" class="scroll-indicator">
+    <i class="fa-solid fa-chevron-down"></i>
+  </a>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
